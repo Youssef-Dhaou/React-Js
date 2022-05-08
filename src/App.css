@@ -1,0 +1,31 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.Logo-react{
+  width: 40px;
+  height: 40px
+}
+#main-container{
+  place-items: center center;
+  margin-top: 6rem ;
+}
+body{
+display: grid;
+height: 100vh;
+background: linear-gradient(to bottom, #ffffff 0%, #79acdb 100%)
+} 
+
+#sign-in-form{
+  max-width: 330px;
+}
+
+.form-control:focus{
+  z-index: 5;
+}
+.Bootstrap-logo{
+  width: 72px ;
+  height: 72px ;
+}
+
+#content{
+box-shadow: 0 2px 5px 0 rgba(14, 26, 11, 0.16);
+}
